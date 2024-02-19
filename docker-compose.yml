@@ -4,6 +4,5 @@ services:
     container_name: grafana-relay
     build: .
     restart: always
-    env_file: ~\.env
     ports: 
       - 12000:12000
